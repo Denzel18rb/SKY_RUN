@@ -1,0 +1,398 @@
+fileFormatVersion: 2
+guid: 2979d226ea3764645b923ea87d2a5fef
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2969298548067514806
+    second: btnG_SIGN_0
+  - first:
+      213: 672103862378906507
+    second: btnG_SIGN_1
+  - first:
+      213: 586252397158803502
+    second: btnG_SIGN_2
+  - first:
+      213: 122236238010422016
+    second: btnG_SIGN_3
+  - first:
+      213: -3685309394262688340
+    second: btnG_SIGN_4
+  - first:
+      213: 9171423734002236004
+    second: btnG_SIGN_5
+  - first:
+      213: -5688033437948568114
+    second: btnG_SIGN_6
+  - first:
+      213: -782150060058555430
+    second: btnG_SIGN_7
+  - first:
+      213: 1132176952472087848
+    second: btnG_SIGN_8
+  - first:
+      213: 6766759647095338404
+    second: btnG_SIGN_9
+  - first:
+      213: 725718536550247000
+    second: btnG_SIGN_10
+  - first:
+      213: 4753224908909741527
+    second: btnG_SIGN_11
+  - first:
+      213: -2943540234755270549
+    second: btnG_SIGN_12
+  - first:
+      213: 7601216308142008721
+    second: btnG_SIGN_13
+  - first:
+      213: 3401243901264237493
+    second: btnG_SIGN_14
+  - first:
+      213: 7973592524272938383
+    second: btnG_SIGN_15
+  - first:
+      213: -6981868483782105562
+    second: btnG_SIGN_16
+  - first:
+      213: -987500617084222140
+    second: btnG_SIGN_17
+  - first:
+      213: -268356971923970178
+    second: btnG_SIGN_18
+  - first:
+      213: -3331965303787152612
+    second: btnG_SIGN_19
+  - first:
+      213: -5870517618823789490
+    second: btnG_SIGN_20
+  - first:
+      213: -5554289077755852215
+    second: btnG_SIGN_21
+  - first:
+      213: -7896827157437429664
+    second: btnG_SIGN_22
+  - first:
+      213: 7415119778669101325
+    second: btnG_SIGN_23
+  - first:
+      213: 5914478598970019417
+    second: btnG_SIGN_24
+  - first:
+      213: 7093445912227594839
+    second: btnG_SIGN_25
+  - first:
+      213: 2629103485605765404
+    second: btnG_SIGN_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: btnG_SIGN_0
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 729
+        width: 790
+        height: 363
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a464a5ad3beeac6d0800000000000000
+      internalID: -2969298548067514806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: btnG_SIGN_5
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 744
+        width: 790
+        height: 363
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46a3ac53b41774f70800000000000000
+      internalID: 9171423734002236004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: btnG_SIGN_11
+      rect:
+        serializedVersion: 2
+        x: 1922
+        y: 770
+        width: 314
+        height: 247
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d58a19fed8d6f140800000000000000
+      internalID: 4753224908909741527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: btnG_SIGN_13
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 386
+        width: 669
+        height: 292
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 199e5b395f1fc7960800000000000000
+      internalID: 7601216308142008721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: btnG_SIGN_17
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 393
+        width: 669
+        height: 292
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4454737bb61bb42f0800000000000000
+      internalID: -987500617084222140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: btnG_SIGN_21
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 19
+        width: 689
+        height: 284
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94ac78cf2833be2b0800000000000000
+      internalID: -5554289077755852215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: btnG_SIGN_25
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 31
+        width: 689
+        height: 284
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 752c5c7797bf07260800000000000000
+      internalID: 7093445912227594839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 79ef153db60294344af050b55d83f3f7
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+      - key: SpriteEditor.SliceOnImport
+        value: False
+    nameFileIdTable:
+      btnG_SIGN_0: -2969298548067514806
+      btnG_SIGN_1: 672103862378906507
+      btnG_SIGN_10: 725718536550247000
+      btnG_SIGN_11: 4753224908909741527
+      btnG_SIGN_12: -2943540234755270549
+      btnG_SIGN_13: 7601216308142008721
+      btnG_SIGN_14: 3401243901264237493
+      btnG_SIGN_15: 7973592524272938383
+      btnG_SIGN_16: -6981868483782105562
+      btnG_SIGN_17: -987500617084222140
+      btnG_SIGN_18: -268356971923970178
+      btnG_SIGN_19: -3331965303787152612
+      btnG_SIGN_2: 586252397158803502
+      btnG_SIGN_20: -5870517618823789490
+      btnG_SIGN_21: -5554289077755852215
+      btnG_SIGN_22: -7896827157437429664
+      btnG_SIGN_23: 7415119778669101325
+      btnG_SIGN_24: 5914478598970019417
+      btnG_SIGN_25: 7093445912227594839
+      btnG_SIGN_26: 2629103485605765404
+      btnG_SIGN_27: 575718290
+      btnG_SIGN_28: 1559816060
+      btnG_SIGN_3: 122236238010422016
+      btnG_SIGN_4: -3685309394262688340
+      btnG_SIGN_5: 9171423734002236004
+      btnG_SIGN_6: -5688033437948568114
+      btnG_SIGN_7: -782150060058555430
+      btnG_SIGN_8: 1132176952472087848
+      btnG_SIGN_9: 6766759647095338404
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
