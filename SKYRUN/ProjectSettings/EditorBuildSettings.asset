@@ -14,6 +14,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MENU-Story.unity
     guid: 24583d90d3db2bc4983801fc0750cd49
+  - enabled: 1
+    path: Assets/Scenes/MENU-Levels.unity
+    guid: 9d260fd7693414f8fad0a848369679e7
+  - enabled: 1
+    path: Assets/Scenes/GAMEOVER-UNUSED.unity
+    guid: 2ef24420aa1d048679f19784def64544
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
