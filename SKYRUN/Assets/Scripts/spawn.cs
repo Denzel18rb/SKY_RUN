@@ -3,7 +3,7 @@ using UnityEngine;
 public class spawn : MonoBehaviour
 {
     public GameObject[] prefabs;   // Lista de prefabs posibles
-    public float timer = 4f;       // Tiempo entre spawns
+    public float timer = 3f;       // Tiempo entre spawns
     private float currentTime;
 
     void Start()

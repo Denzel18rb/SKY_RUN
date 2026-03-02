@@ -5,6 +5,9 @@ public class transformation_player : MonoBehaviour
     public GameObject golem;
     public GameObject condor;
 
+    public float CooldownTrasform_FINAL = 1;
+    public float Cooldown;
+
     private bool IsGolem = true;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -16,9 +19,12 @@ public class transformation_player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Z))
+        Cooldown -= 1 * Time.deltaTime;
+
+        if (Input.GetKeyDown(KeyCode.Z) && Cooldown <= 0)
         {
-            transform_me();           
+            transform_me();
+            Cooldown = CooldownTrasform_FINAL;        
         }
     }
 
