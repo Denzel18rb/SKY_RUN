@@ -11,7 +11,7 @@ public class FloorSegment : MonoBehaviour
 
         if (transform.position.x <= destroyX)
         {
-            Destroy(gameObject); // 🔥 elimina Grid + Tilemap completo
+            Destroy(gameObject);
         }
     }
 }
