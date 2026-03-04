@@ -9,11 +9,12 @@ public class transformation_player : MonoBehaviour
     public float Cooldown;
 
     private bool IsGolem = true;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         golem.SetActive(true);
-        condor.SetActive(false);
+        condor.SetActive(false);;
     }
 
     // Update is called once per frame

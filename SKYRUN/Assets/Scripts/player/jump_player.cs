@@ -8,21 +8,23 @@ public class jump_player : MonoBehaviour
     private int jumpCount;
 
     private Rigidbody2D dinoRb;
-    private Animator anim; //variable tipo Animator
+    private Animator anim;
 
-    private bool IsGrounded; //Para comprobar si choca con el suelo, para animacion.
+    private bool IsGrounded;
 
     void Start()
     {
         dinoRb = GetComponent<Rigidbody2D>();
-        anim = GetComponent<Animator>(); //Obtiene el Componente
+        anim = GetComponent<Animator>();
     }
 
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space) && jumpCount < maxJumps)
         {
+            dinoRb.velocity = new Vector2(dinoRb.velocity.x, 0f); // Evita acumulación vertical
             dinoRb.AddForce(Vector2.up * upForce, ForceMode2D.Impulse);
+
             jumpCount++;
             IsGrounded = false;
         }
@@ -32,10 +34,18 @@ public class jump_player : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Ground"))
+        if (!collision.gameObject.CompareTag("Ground"))
+            return;
+
+        foreach (ContactPoint2D contact in collision.contacts)
         {
-            jumpCount = 0;
-            IsGrounded = true;
+            // Solo cuenta como suelo si la superficie está debajo del jugador
+            if (contact.normal.y > 0.5f)
+            {
+                jumpCount = 0;
+                IsGrounded = true;
+                break;
+            }
         }
     }
 }
