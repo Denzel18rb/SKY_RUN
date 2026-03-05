@@ -3,10 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-tags:
-- Ground
-- Destroyer
-- ground
+  tags:
+  - Ground
+  - Destroyer
   layers:
   - Default
   - TransparentFX
