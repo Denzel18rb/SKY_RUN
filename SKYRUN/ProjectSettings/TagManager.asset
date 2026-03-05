@@ -5,15 +5,19 @@ TagManager:
   serializedVersion: 3
   tags:
   - Ground
+<<<<<<< J4JVH
+  - Destroyer
+=======
   - ground
+>>>>>>> main
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Background
   - Water
   - UI
-  - 
+  - Ground
   - 
   - 
   - 
