@@ -6,6 +6,10 @@ using UnityEngine.UI;
 
 public class Boton : MonoBehaviour
 {
+    [Header("Acción del botón")]
+    [Tooltip("Si está activado, el botón cerrará el juego")]
+    public bool cerrarJuego = false;
+
     [Header("Nombre del cuarto a Cargar")]
     [Tooltip("Escribe el nombre exacto de la escena")]
     public string nombreCuarto = "";
@@ -19,9 +23,6 @@ public class Boton : MonoBehaviour
     public Image frameImage;
     public Sprite spriteNormalFrame;
     public Sprite spritePresionadoFrame;
-
-
-
 
     [Header("Audio")]
     public AudioSource audioSource;
@@ -41,29 +42,43 @@ public class Boton : MonoBehaviour
 
     void AlPresionar()
     {
-        // Cambiar sprite SOLO de las letras
         if (letrasImage != null && spritePresionado != null)
             letrasImage.sprite = spritePresionado;
 
-        // Cambiar sprite SOLO del frame
         if (frameImage != null && spritePresionadoFrame != null)
             frameImage.sprite = spritePresionadoFrame;
 
-        // Reproducir sonido
         if (audioSource != null && sonidoClick != null)
             audioSource.PlayOneShot(sonidoClick);
 
-        // Esperar antes de cambiar escena
-        StartCoroutine(CargarConDelay(0.3f));
+        StartCoroutine(AccionConDelay(0.3f));
     }
 
-    IEnumerator CargarConDelay(float delay)
+    IEnumerator AccionConDelay(float delay)
     {
         yield return new WaitForSeconds(delay);
 
-        if (string.IsNullOrEmpty(nombreCuarto))
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        if (cerrarJuego)
+        {
+            CerrarJuego();
+        }
         else
-            SceneManager.LoadScene(nombreCuarto);
+        {
+            if (string.IsNullOrEmpty(nombreCuarto))
+                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            else
+                SceneManager.LoadScene(nombreCuarto);
+        }
+    }
+
+    void CerrarJuego()
+    {
+        Debug.Log("Cerrando juego...");
+
+        #if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+        #else
+        Application.Quit();
+        #endif
     }
 }

@@ -17,11 +17,14 @@ public class BlockFragile : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Destroyer"))
-            //return;
+        {
+            Destroy(gameObject);
+        }
+    }
 
-        //Vector2 closestPoint = other.ClosestPoint(transform.position);
-
-        //if (closestPoint.x < transform.position.x)
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Destroyer"))
         {
             Destroy(gameObject);
         }

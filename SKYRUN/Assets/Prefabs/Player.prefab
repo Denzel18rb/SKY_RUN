@@ -531,4 +531,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::dash_player
   dashSpeed: 60
   dashDuration: 0.1
-  CooldownDash: 1
+  CooldownDash: 0.5
